@@ -71,9 +71,11 @@ const Navbar = () => (
 			</a>
 
 			<NavMenu>
-				<NavMenuItem href="/posts/">Blogs</NavMenuItem>
-				<NavMenuItem href="/">GitHub</NavMenuItem>
-				<NavMenuItem href="/">Twitter</NavMenuItem>
+				{/* <NavMenuItem href="/posts/">Blogs</NavMenuItem> */}
+				<NavMenuItem href="https://github.com/parsehex" target="_blank">
+					GitHub
+				</NavMenuItem>
+				{/* <NavMenuItem href="/">Twitter</NavMenuItem> */}
 			</NavMenu>
 		</NavbarTwoColumns>
 	</Section>

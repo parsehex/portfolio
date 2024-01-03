@@ -1,4 +1,6 @@
 ---
+import { Tooltips } from 'astro-tooltips';
+
 import { Footer } from '@/partials/Footer';
 import { Navbar } from '@/partials/Navbar';
 import { AppConfig } from '@/utils/AppConfig';
@@ -25,6 +27,7 @@ const {
 
 		<link rel='alternate' type='application/rss+xml' href='/rss.xml' />
 		<link rel='icon' type='image/x-icon' href='/favicon.ico' />
+		<Tooltips />
 	</head>
 	<body class='bg-slate-900 text-gray-100'>
 		<Navbar />
