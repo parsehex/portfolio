@@ -7,7 +7,7 @@ import { astroImageTools } from 'astro-imagetools';
 
 // https://astro.build/config
 export default defineConfig({
-	base: '.', // Set a path prefix.
+	base: './', // Set a path prefix.
 	site: 'https://www.thomasmays.net/',
 	trailingSlash: 'always', // Use to always append '/' at end of url
 	markdown: {

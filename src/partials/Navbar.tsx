@@ -1,10 +1,4 @@
-import {
-	Logo,
-	NavbarTwoColumns,
-	NavMenu,
-	NavMenuItem,
-	Section,
-} from 'astro-boilerplate-components';
+import { Logo, NavbarTwoColumns, Section } from 'astro-boilerplate-components';
 
 const TheLogo = ({ name = 'Astro' }) => (
 	<Logo
@@ -70,13 +64,13 @@ const Navbar = () => (
 				<TheLogo name="Thomas Mays" />
 			</a>
 
-			<NavMenu>
-				{/* <NavMenuItem href="/posts/">Blogs</NavMenuItem> */}
-				<NavMenuItem href="https://github.com/parsehex" target="_blank">
+			{/* <NavMenu> */}
+			{/* <NavMenuItem href="/posts/">Blogs</NavMenuItem> */}
+			{/* <NavMenuItem href="https://github.com/parsehex" target="_blank">
 					GitHub
-				</NavMenuItem>
-				{/* <NavMenuItem href="/">Twitter</NavMenuItem> */}
-			</NavMenu>
+				</NavMenuItem> */}
+			{/* <NavMenuItem href="/">Twitter</NavMenuItem> */}
+			{/* </NavMenu> */}
 		</NavbarTwoColumns>
 	</Section>
 );
